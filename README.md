@@ -34,11 +34,6 @@ M-Letter is a Laravel-based web application for managing official letter submiss
    
    Or use a tool like phpMyAdmin to import the SQL file.
 
-5. **Run migrations (if applicable):**
-
-   ```bash
-   php artisan migrate
-   ```
 
 ## Usage
 
