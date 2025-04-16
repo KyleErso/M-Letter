@@ -1,4 +1,3 @@
-
 # M-Letter
 
 M-Letter is a Laravel-based web application for managing official letter submissions in academic environments. It streamlines request submissions, approvals, and file downloads for students and admins.
@@ -25,7 +24,17 @@ M-Letter is a Laravel-based web application for managing official letter submiss
    php artisan key:generate
    ```
 
-4. **Run migrations:**
+4. **Import Database:**
+
+   Import the provided `dbPengajuanSurat.sql` file into your database. For example, using MySQL command line:
+   
+   ```bash
+   mysql -u your_username -p your_database_name < dbPengajuanSurat.sql
+   ```
+   
+   Or use a tool like phpMyAdmin to import the SQL file.
+
+5. **Run migrations (if applicable):**
 
    ```bash
    php artisan migrate
@@ -40,4 +49,3 @@ php artisan serve
 ```
 
 Visit [http://localhost:8000](http://localhost:8000) in your browser.
-
